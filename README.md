@@ -12,5 +12,6 @@ The script will also submit the sitemap to Google Search Console if the `--submi
 For this to work, you need to provide a valid Google API credentials file in the `creds.json` file. Don't forget to add the email address associated with the GCP service account as Owner in your Search Console property.
 
 # Usage
-You can run the validator script by pointing to the sitemap.xml file of your choice (assuming you own the site)
+You can run the validator script by pointing to the sitemap.xml file of your choice (assuming you own the site):
+
 `./bin/python3 sitemap_validator.py https://yoursite.com/sitemap.xml --submit-to-google --google-credentials creds.json`
