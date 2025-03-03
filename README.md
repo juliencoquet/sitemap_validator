@@ -1,5 +1,6 @@
 # Sitemap validator
-This script
+This script validates a remote sitemap URL and can proceed to submit them with Google Search Console for indexing.
+Not perfect so do make sure to provide comments & suggestions.
 
 # Installation
 Setup command: `sh ./run.sh`
